@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+   /* box-sizing est appliqué à tous les éléments */
+   }
+ .restaurant__image img, .menu__image img {
+     width: 300px;
+     height:auto;
+ }  
