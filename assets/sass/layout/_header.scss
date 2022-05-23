@@ -1,4 +1,14 @@
-header {
+.header {
     display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
     align-items: center;
+    margin: 15px auto;
+    &__logo {
+        width: 180px;
+    }
+    &__nav {
+        position: absolute;
+        left: 20px;
+    }
 }

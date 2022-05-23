@@ -3,7 +3,8 @@
    /* box-sizing est appliqué à tous les éléments */
    }
 
-   @font-face {
-       font-family: "Roboto-Regular";
-       src: url("Roboto-Regular.ttf")
+   @import url(/public/css/webfonts/font-family.css);
+
+   h1 {
+       font-family: "Roboto-Medium";
    }
