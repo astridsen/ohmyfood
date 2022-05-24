@@ -9,12 +9,33 @@ h1 {
   font-family: "Roboto-Medium";
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.discover_block__button {
+  background: linear-gradient(#FF79DA, #9356DC);
+  font-family: Roboto-Medium;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px #B8B8B8;
+  width: 220px;
+  margin: 20px auto 50px;
+  padding: 15px 10px;
+}
+.discover_block__button a {
+  text-decoration: none;
+}
+
 .header {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
   align-items: center;
-  margin: 15px auto;
+  padding: 15px 0;
 }
 .header__logo {
   width: 180px;
@@ -29,12 +50,32 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #EAEAEA;
+  box-shadow: inset 0px 4px 10px -9px;
 }
 .position__city {
+  font-family: Roboto-Regular;
   padding-right: 30px;
 }
 .position__icon {
   padding-right: 20px;
+}
+
+.discover_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 25px;
+  background-color: #F6F6F6;
+}
+.discover_block h1 {
+  padding: 0 30px;
+  margin: 40px 0 0;
+}
+.discover_block h2 {
+  font-family: Roboto-Light;
+  font-size: 18px;
+  color: #4D4D4D;
 }
 
 /*# sourceMappingURL=style.css.map */

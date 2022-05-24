@@ -1,0 +1,7 @@
+.discover_block__button {
+    @include button;
+
+    a {
+        text-decoration: none;
+    }
+}
