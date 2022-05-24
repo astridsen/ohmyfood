@@ -1,12 +1,32 @@
 .position {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $colour-position;
-    &__city {
-        padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colour-position;
+  box-shadow: inset 0px 4px 10px -9px;
+
+  &__city {
+      font-family: Roboto-Regular;
+      padding-right: 30px;
     }
-    &__icon {
-        padding-right: 20px;
+  &__icon {
+      padding-right: 20px;
     }
+}
+.discover_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15px;
+  background-color: $colour-discover_block;
+
+  h1 {
+      padding: 0 30px;
+      margin: 40px 0 0;
+  }
+  h2 {
+      font-family: Roboto-Light;
+      font-size: 16px;
+  }
 }
