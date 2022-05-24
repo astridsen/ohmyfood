@@ -1,8 +1,40 @@
+@charset "UTF-8";
+@import url(/public/css/webfonts/font-family.css);
 * {
-    box-sizing: border-box;
-   /* box-sizing est appliqué à tous les éléments */
-   }
- .restaurant__image img, .menu__image img {
-     width: 300px;
-     height:auto;
- }  
+  box-sizing: border-box;
+  /* box-sizing est appliqué à tous les éléments */
+}
+
+h1 {
+  font-family: "Roboto-Medium";
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 15px auto;
+}
+.header__logo {
+  width: 180px;
+}
+.header__nav {
+  position: absolute;
+  left: 20px;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+.position__city {
+  padding-right: 30px;
+}
+.position__icon {
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
