@@ -1,0 +1,12 @@
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colour-position;
+    &__city {
+        padding-right: 30px;
+    }
+    &__icon {
+        padding-right: 20px;
+    }
+}

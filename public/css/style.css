@@ -24,4 +24,17 @@ h1 {
   left: 20px;
 }
 
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+.position__city {
+  padding-right: 30px;
+}
+.position__icon {
+  padding-right: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
