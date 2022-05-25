@@ -68,10 +68,13 @@
         margin-left: -10px;
     }
 
-    &__icon {
+    &__icon, &__icon--3 {
         font-size: 20px;
         width: 15px;
         margin-right: 20px;
+        &--3 {
+            color: $colour-primary;
+        }
     }
 
     &__step-3 li {
