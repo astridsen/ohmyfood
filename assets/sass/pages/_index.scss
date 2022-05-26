@@ -19,7 +19,7 @@
   justify-content: center;
   text-align: center;
   padding: 0 25px;
-  background-color: $colour-discover_block;
+  background-color: $colour-background;
 
   h1 {
       padding: 0 30px;
@@ -34,11 +34,12 @@
 }
 
 .how-to-use {
+    margin: $padding-block_index;
     font-family: Roboto-Regular;
     font-size: 14px;
     color: $colour-text-secondary;
     h1 {
-        padding-left: 20px;
+        @include block-title;
     }
 
     ul {
@@ -46,13 +47,14 @@
         flex-direction: column;
         justify-content: center;
         width: 350px;
-        margin: 30px 0 60px 0;
+        margin: auto;
+        padding: 0 20px 0 30px;
     }
 
     li {
         display: flex;
         align-items: center;
-        background-color: $colour-discover_block;
+        background-color: $colour-background;
         margin-bottom: 15px;
         border-radius: 25px;
         padding: 10px 0;
@@ -81,4 +83,43 @@
         background-color: $colour-background_step-3;
     }
 
+}
+.restaurant {
+    background-color: $colour-background;
+    padding: $padding-block_index;
+    h1 {
+        @include block-title;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin: auto;
+    }
+
+    &__card {
+        width: 300px;
+        height: 200px;
+        margin: 10px 0;
+        overflow: hidden;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px $colour-shadow_step;
+    }
+
+    &__image {
+        object-fit: contain;
+        height: 140px;
+        overflow: hidden;
+    }
+    img {
+        width: 100%;
+        transform: translate(0,-25%);
+    }
+
+    &__information {
+        display: flex;
+    }
 }
