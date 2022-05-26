@@ -1,0 +1,27 @@
+.footer {
+    background-color: $colour-background_footer;
+    color: $colour-text_footer;
+    padding-bottom: 20px;
+    &__logo {
+        width: 130px;
+        filter: invert(100%);
+        padding: 20px 0 0 30px;
+    }
+
+    ul {
+        list-style-type: none;
+        font-family: Roboto-Regular;
+        font-size: 15px;
+        padding-left: 30px;
+    }
+
+    li {
+        padding-bottom: 5px;
+    }
+
+    &__icon {
+        display: inline-block;
+        width: 20px;
+        margin-right: 5px;
+    }
+}
