@@ -226,4 +226,39 @@ body {
   margin: auto;
 }
 
+.heading__image {
+  object-fit: contain;
+  overflow: hidden;
+  height: 250px;
+}
+.heading__image img {
+  width: 110%;
+  transform: translate(-5%, 0);
+}
+
+.menu {
+  border-radius: 25px;
+  background-color: #fff;
+  position: relative;
+  margin-top: -50px;
+  padding-left: 20px;
+}
+.menu__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px 10px 0px;
+}
+.menu__heading h1 {
+  font-family: Shrikhand-Regular;
+  font-size: 25px;
+}
+.menu__heading--fav-icon {
+  font-size: 25px;
+}
+.menu__title {
+  font-family: Roboto-Thin;
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=style.css.map */
