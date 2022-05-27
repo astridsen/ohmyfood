@@ -24,4 +24,6 @@
         width: 20px;
         margin-right: 5px;
     }
+
+    @include tablet-desktop;
 }

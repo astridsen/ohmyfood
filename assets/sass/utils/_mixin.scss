@@ -18,3 +18,17 @@
     font-size: 20px;
     color: $colour-text-secondary;
 }
+
+@mixin tablet-desktop {
+    @media screen and (min-width: map-get($breakpoints, tablet-desktop)) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 760px;
+            padding-right: 30px;
+        }
+    }
+}

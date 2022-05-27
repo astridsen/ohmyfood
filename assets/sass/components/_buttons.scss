@@ -5,3 +5,9 @@
         text-decoration: none;
     }
 }
+
+.menu__command-button {
+    @include button;
+    width: 180px;
+    margin-top: 30px;
+}
