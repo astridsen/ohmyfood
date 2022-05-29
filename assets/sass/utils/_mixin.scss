@@ -19,16 +19,58 @@
     color: $colour-text-secondary;
 }
 
-@mixin tablet-desktop {
+@mixin tablet-desktop_footer {
     @media screen and (min-width: map-get($breakpoints, tablet-desktop)) {
         display: flex;
         flex-direction: column;
         align-items: center;
+
         ul {
             display: flex;
             justify-content: space-between;
             width: 760px;
             padding-right: 30px;
         }
+
+    }
+}
+
+@mixin tablet-desktop_index {
+    @media screen and (min-width: map-get($breakpoints, tablet-desktop)) {
+        .how-to-use {
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            h1 {
+                padding: $padding-block-title_index;
+            }
+            &__step {
+                max-width: 900px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding: 0 10px;
+            }
+            li {
+                margin: 0 10px 15px;
+                padding: 10px 20px 10px 0; 
+            }
+        }
+
+        #restaurant {
+            display: flex;
+            flex-direction: column;
+
+            h1.restaurant__title {
+                padding: $padding-block-title_index;
+            }
+
+            ul {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                max-width: 900px;
+            }
+        }
+
     }
 }

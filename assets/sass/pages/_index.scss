@@ -44,7 +44,7 @@
         @include block-title;
     }
 
-    ul {
+    &__step {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -164,3 +164,4 @@
         }
     }
 }
+@include tablet-desktop_index;
