@@ -89,6 +89,7 @@
 .restaurant {
     background-color: $colour-background;
     padding: $padding-block_index;
+
     h1 {
         @include block-title;
         max-width: 400px;
@@ -149,6 +150,9 @@
             top: 15px;
             right: 20px;
             font-size: 25px;
+            &:active {
+                color: linear-gradient($colour-secondary, $colour-primary);
+            }
         }
 
         h1 {
