@@ -168,4 +168,43 @@
         }
     }
 }
-@include tablet-desktop_index;
+@include tablet-desktop {
+    .how-to-use {
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            padding: $padding-block-title_index;
+        }
+        &__step {
+            max-width: 900px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 0 10px;
+        }
+        li {
+            margin: 0 10px 15px;
+            padding: 10px 20px 10px 0; 
+        }
+    }
+
+    .restaurant {
+        display: flex;
+        flex-direction: column;
+
+        h1.restaurant__title {
+            padding: $padding-block-title_index;
+        }
+
+        ul {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 900px;
+        }
+    }
+    #restaurant {
+        display: flex;
+        flex-direction:column;
+    }
+}

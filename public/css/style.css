@@ -358,15 +358,38 @@ body {
   padding-left: 0;
   margin: auto;
 }
-.menu li {
+.menu__information {
+  display: flex;
   background-color: #fff;
   margin-bottom: 15px;
   border-radius: 15px;
-  padding: 15px;
   box-shadow: 0px 5px 10px #DCDCDC;
   width: 340px;
   height: 70px;
-  position: relative;
+}
+.menu__information--text {
+  padding: 15px;
+}
+.menu__information:hover .menu__check {
+  display: block;
+  font-size: 25px;
+  color: #fff;
+  background-color: #99E2D0;
+  padding: 21px 20px 20px;
+  margin: auto;
+  border-radius: 0 15px 15px 0;
+}
+.menu__information:hover .menu__information--text {
+  width: 280px;
+  padding-right: 20px;
+}
+.menu__check {
+  display: none;
+}
+.menu__information--details {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
 }
 .menu h2 {
   font-family: Roboto-Regular;
@@ -377,7 +400,6 @@ body {
   font-family: Roboto-Thin;
   font-size: 15px;
   margin: 0;
-  padding-top: 3px;
   width: 280px;
   overflow: hidden;
   white-space: nowrap;
@@ -386,9 +408,7 @@ body {
 .menu__price {
   font-family: Roboto-Regular;
   font-size: 15px;
-  position: absolute;
-  right: 20px;
-  top: 25px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -25,5 +25,20 @@
         margin-right: 5px;
     }
 
-    @include tablet-desktop_footer;
+    @include tablet-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__logo {
+            padding-left: 0;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 760px;
+            padding-right: 30px;
+        }
+    }
 }

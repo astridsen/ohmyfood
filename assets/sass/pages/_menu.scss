@@ -54,15 +54,40 @@
         margin: auto;
     }
 
-    li {
+    &__information {
+        display: flex;
         background-color: #fff;
         margin-bottom: 15px;
         border-radius: 15px;
-        padding: 15px;
         box-shadow: 0px 5px 10px $colour-shadow_step;
         width: 340px;
         height: 70px;
-        position: relative;
+        &--text {
+            padding: 15px;
+        }
+        &:hover .menu__check {
+            display: block;
+            font-size: 25px;
+            color:#fff;
+            background-color: $colour-background_new;
+            padding: 21px 20px 20px;
+            margin: auto;
+            border-radius: 0 15px 15px 0;
+        }
+        &:hover .menu__information--text {
+            width: 280px;
+            padding-right: 20px;
+        }
+    }
+
+    &__check {
+        display: none;
+    }
+
+    &__information--details {
+        display: flex;
+        align-items: center;
+        padding-top: 3px;
     }
 
     h2 {
@@ -75,7 +100,6 @@
         font-family: Roboto-Thin;
         font-size: 15px;
         margin: 0;
-        padding-top: 3px;
         width: 280px;
         overflow: hidden;
         white-space: nowrap;
@@ -85,9 +109,7 @@
     &__price {
         font-family: Roboto-Regular;
         font-size: 15px;
-        position: absolute;
-        right: 20px;
-        top: 25px;
+        margin: auto;
     }
 
     
