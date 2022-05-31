@@ -54,6 +54,23 @@
         margin: auto;
     }
 
+    &__starters li {
+        opacity: 0;
+        animation: menuitem 1s forwards ease-out;
+    }
+
+    &__main-courses li {
+        opacity: 0;
+        animation: menuitem 1s forwards ease-out;
+        animation-delay: 1s;
+    }
+
+    &__desserts li {
+        opacity: 0;
+        animation: menuitem 1s forwards ease-out;
+        animation-delay: 2s;
+    }
+
     &__information {
         display: flex;
         background-color: #fff;
@@ -70,6 +87,23 @@
             &:hover {
                 width: 280px;
                 padding-right: 20px;
+            }
+        }
+        &:active .menu__check {
+            position:absolute;
+            display: block;
+            font-size: 25px;
+            color:#fff;
+            background-color: $colour-background_new;
+            padding: 21px 20px 20px;
+            margin:auto;
+            border-radius: 0 15px 15px 0;
+            opacity:1;
+            transform: translateX(-40px);
+            transition: transform 500ms;
+            i {
+                transform: rotate(360deg);
+                transition: transform 500ms;
             }
         }
         &:hover .menu__check {
@@ -89,6 +123,7 @@
                 transition: transform 500ms;
             }
         }
+
     }
 
     &__check {
