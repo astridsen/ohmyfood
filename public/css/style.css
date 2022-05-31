@@ -366,11 +366,18 @@ body {
   box-shadow: 0px 5px 10px #DCDCDC;
   width: 340px;
   height: 70px;
+  position: relative;
+  overflow: hidden;
 }
 .menu__information--text {
   padding: 15px;
 }
+.menu__information--text:hover {
+  width: 280px;
+  padding-right: 20px;
+}
 .menu__information:hover .menu__check {
+  position: absolute;
   display: block;
   font-size: 25px;
   color: #fff;
@@ -378,13 +385,20 @@ body {
   padding: 21px 20px 20px;
   margin: auto;
   border-radius: 0 15px 15px 0;
+  opacity: 1;
+  transform: translateX(-40px);
+  transition: transform 500ms;
 }
-.menu__information:hover .menu__information--text {
-  width: 280px;
-  padding-right: 20px;
+.menu__information:hover .menu__check i {
+  transform: rotate(360deg);
+  transition: transform 500ms;
 }
 .menu__check {
-  display: none;
+  opacity: 0;
+  overflow: hidden;
+  right: -40px;
+  transform: translateX(0);
+  transform: rotate(0);
 }
 .menu__information--details {
   display: flex;
