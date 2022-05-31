@@ -1,13 +1,31 @@
-.discover_block__button {
-    @include button;
+.btn {
+    background: linear-gradient($colour-secondary, $colour-primary);
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: $colour-text_button;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px $colour-shadow_button;
+    width: 220px;
+    margin: 20px auto 50px;
+    padding: 15px 10px; 
+    &:hover, &:active {
+        background: linear-gradient(
+            to top,
+            lighten($colour-primary, 5%),
+            lighten($colour-secondary, 5%)
+        );
+        box-shadow: 8px 8px 16px 0 $color-shadow_button--hover;
+    }
+}
 
+.discover_block .btn {
     a {
         text-decoration: none;
     }
 }
 
-.menu__command-button {
-    @include button;
+.menu .btn {
     width: 180px;
     margin-top: 30px;
 }

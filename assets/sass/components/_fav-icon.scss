@@ -2,7 +2,7 @@
     color: #000;
     background-color: $colour-background;
     &:hover, &:active {
-    background: linear-gradient($colour-primary, $colour-secondary);
+    background: $linear-gradient_color;
     animation: full-heart 500ms ease-in-out;
     background-clip: text;
     -webkit-background-clip: text;

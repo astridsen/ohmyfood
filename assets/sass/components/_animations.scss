@@ -25,3 +25,24 @@
         opacity: 1;
     }
 }
+
+
+@keyframes bars {
+    0% {
+        transform: scaleY(0.5);
+        
+    }
+    100% {
+        transform: scaleY(1.0);
+    }
+}
+
+@keyframes loader-position {
+    0% {
+        opacity: 1;
+      }
+    100% {
+        opacity: 0;
+        visibility:hidden;
+      }
+}
