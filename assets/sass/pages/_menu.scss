@@ -24,10 +24,6 @@
         justify-content: space-between;
         padding: 10px 40px 10px 20px;
         width: 380px;
-        h1 {
-        font-family: Shrikhand-Regular;
-        font-size: 25px;
-        }
         &--fav-icon {
             font-size: 25px;
         }
@@ -35,15 +31,6 @@
 
     &__starters, &__main-courses, &__desserts {
         width: 380px;
-    }
-
-    &__title {
-        font-family: Roboto-Thin;
-        font-size: 18px;
-        margin-left: 20px;
-        border-bottom: $colour-background_new solid 2px;
-        width: 40px;
-        padding-bottom: 5px;
     }
 
     ul {
@@ -139,22 +126,6 @@
         display: flex;
         align-items: center;
         padding-top: 3px;
-    }
-
-    h2 {
-        font-family: Roboto-Regular;
-        font-size: 17px;
-        margin: auto;
-    }
-
-    h3 {
-        font-family: Roboto-Thin;
-        font-size: 15px;
-        margin: 0;
-        width: 280px;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
     }
 
     &__price {
