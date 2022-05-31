@@ -26,8 +26,8 @@ body {
   margin: 20px auto 50px;
   padding: 15px 10px;
 }
-.discover_block__button:hover {
-  background: linear-gradient(to left top, #a16be0, #ff93e1);
+.discover_block__button:hover, .discover_block__button:active {
+  background: linear-gradient(to top, #a16be0, #ff93e1);
   box-shadow: 8px 8px 16px 0 #7e7e7e;
 }
 .discover_block__button a {
@@ -48,8 +48,8 @@ body {
   width: 180px;
   margin-top: 30px;
 }
-.menu__command-button:hover {
-  background: linear-gradient(to left top, #a16be0, #ff93e1);
+.menu__command-button:hover, .menu__command-button:active {
+  background: linear-gradient(to top, #a16be0, #ff93e1);
   box-shadow: 8px 8px 16px 0 #7e7e7e;
 }
 
@@ -476,6 +476,29 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
+}
+@keyframes full-heart {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fav {
+  color: #000;
+  background-color: #F6F6F6;
+}
+.fav:hover, .fav:active {
+  background: linear-gradient(#9356DC, #FF79DA);
+  animation: full-heart 500ms ease-in-out;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

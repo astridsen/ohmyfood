@@ -1,0 +1,12 @@
+.fav {
+    color: #000;
+    background-color: $colour-background;
+    &:hover, &:active {
+    background: linear-gradient($colour-primary, $colour-secondary);
+    animation: full-heart 500ms ease-in-out;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bold;
+    }
+}
