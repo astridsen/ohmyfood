@@ -62,26 +62,41 @@
         box-shadow: 0px 5px 10px $colour-shadow_step;
         width: 340px;
         height: 70px;
+        position:relative;
+        overflow: hidden;
+    
         &--text {
             padding: 15px;
+            &:hover {
+                width: 280px;
+                padding-right: 20px;
+            }
         }
         &:hover .menu__check {
+            position:absolute;
             display: block;
             font-size: 25px;
             color:#fff;
             background-color: $colour-background_new;
             padding: 21px 20px 20px;
-            margin: auto;
+            margin:auto;
             border-radius: 0 15px 15px 0;
-        }
-        &:hover .menu__information--text {
-            width: 280px;
-            padding-right: 20px;
+            opacity:1;
+            transform: translateX(-40px);
+            transition: transform 500ms;
+            i {
+                transform: rotate(360deg);
+                transition: transform 500ms;
+            }
         }
     }
 
     &__check {
-        display: none;
+        opacity: 0;
+        overflow: hidden;
+        right: -40px;
+        transform: translateX(0);
+        transform: rotate(0);
     }
 
     &__information--details {
