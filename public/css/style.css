@@ -26,6 +26,10 @@ body {
   margin: 20px auto 50px;
   padding: 15px 10px;
 }
+.discover_block__button:hover {
+  background: linear-gradient(to left top, #a16be0, #ff93e1);
+  box-shadow: 8px 8px 16px 0 #7e7e7e;
+}
 .discover_block__button a {
   text-decoration: none;
 }
@@ -43,6 +47,10 @@ body {
   padding: 15px 10px;
   width: 180px;
   margin-top: 30px;
+}
+.menu__command-button:hover {
+  background: linear-gradient(to left top, #a16be0, #ff93e1);
+  box-shadow: 8px 8px 16px 0 #7e7e7e;
 }
 
 .header {
