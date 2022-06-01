@@ -1,19 +1,19 @@
 .btn {
-    background: linear-gradient($colour-secondary, $colour-primary);
+    background: linear-gradient($color-secondary, $color-primary);
     font-family: Roboto-Medium;
     font-size: 16px;
-    color: $colour-text_button;
+    color: $color-text_button;
     border: none;
     border-radius: 25px;
-    box-shadow: 0px 5px 10px $colour-shadow_button;
+    box-shadow: 0px 5px 10px $color-shadow_button;
     width: 220px;
     margin: 20px auto 50px;
     padding: 15px 10px; 
     &:hover, &:active {
         background: linear-gradient(
             to top,
-            lighten($colour-primary, 5%),
-            lighten($colour-secondary, 5%)
+            lighten($color-primary, 5%),
+            lighten($color-secondary, 5%)
         );
         box-shadow: 8px 8px 16px 0 $color-shadow_button--hover;
     }

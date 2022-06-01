@@ -6,7 +6,7 @@
     h2 {
         font-family: Roboto-Light;
         font-size: 18px;
-        color: $colour-text-secondary;
+        color: $color-text-secondary;
     }
 }
 
@@ -16,7 +16,7 @@
         margin: auto;
         font-family: Roboto-Medium;
         font-size: 20px;
-        color: $colour-text-secondary;
+        color: $color-text-secondary;
     }
 }
 
@@ -26,7 +26,7 @@
         margin: auto;
         font-family: Roboto-Medium;
         font-size: 20px;
-        color: $colour-text-secondary;
+        color: $color-text-secondary;
         max-width: 400px;
     }
 
@@ -41,7 +41,7 @@
             font-size: 16px;
             padding: 5px 0 0 15px;
             margin: auto;
-            color:$colour-text-secondary;
+            color:$color-text-secondary;
         }
     }
 }
@@ -55,7 +55,7 @@
 
     .restaurant {
         h1.restaurant__title {
-        padding: $padding-block-title_index;
+            padding: $padding-block-title_index;
         }
     }
 }
@@ -63,8 +63,8 @@
 .menu {
     &__heading {
         h1 {
-        font-family: Shrikhand-Regular;
-        font-size: 25px;
+            font-family: Shrikhand-Regular;
+            font-size: 25px;
         }
     }
 
@@ -72,7 +72,7 @@
         font-family: Roboto-Thin;
         font-size: 18px;
         margin-left: 20px;
-        border-bottom: $colour-background_new solid 2px;
+        border-bottom: $color-box solid 2px;
         width: 40px;
         padding-bottom: 5px;
     }

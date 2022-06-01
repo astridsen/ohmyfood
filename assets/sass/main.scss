@@ -2,16 +2,15 @@
 @import "./utils/mixin";
 
 @import "./base/base";
-@import "./base/tipography";
-
-@import "./components/buttons";
+@import "./base/typography";
 
 @import "./layout/header";
 @import "./layout/footer";
 
-@import "./pages/index";
-@import "./pages/menu";
-
+@import "./components/buttons";
 @import "./components/animations";
 @import "./components/fav-icon";
 @import "./components/loader";
+
+@import "./pages/index";
+@import "./pages/menu";

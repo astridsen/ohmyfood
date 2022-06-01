@@ -1,13 +1,42 @@
 * {
-    box-sizing: border-box;
-   /* box-sizing est appliqué à tous les éléments */
-   }
+box-sizing: border-box;
+/* box-sizing est appliqué à tous les éléments */
+}
 
-   @import url(/public/css/webfonts/font-family.css);
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("/public/css/webfonts/Roboto/Roboto-Regular.ttf")
+}
 
-   h1 {
-       font-family: "Roboto-Medium";
-   }
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("/public/css/webfonts/Roboto/Roboto-Bold.ttf")
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url("/public/css/webfonts/Roboto/Roboto-Medium.ttf")
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url("/public/css/webfonts/Roboto/Roboto-Light.ttf")
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("/public/css/webfonts/Roboto/Roboto-Thin.ttf")
+}
+
+@font-face {
+    font-family: Shrikhand-Regular;
+    src: url("/public/css/webfonts/Shrikhand/Shrikhand-Regular.ttf");
+}
+
+h1 {
+    font-family: "Roboto-Medium";
+}
+
 body {
     margin: 0;
     padding: 0;

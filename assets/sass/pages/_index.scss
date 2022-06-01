@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $colour-position;
+  background-color: $color-geolocalisation;
   box-shadow: inset 0px 4px 10px -9px;
 
   &__city {
@@ -19,7 +19,7 @@
   justify-content: center;
   text-align: center;
   padding: 0 25px;
-  background-color: $colour-background;
+  background-color: $color-background;
 }
 
 .how-to-use {
@@ -27,7 +27,7 @@
     margin: auto;
     font-family: Roboto-Regular;
     font-size: 14px;
-    color: $colour-text-secondary;
+    color: $color-text-secondary;
     max-width: 400px;
 
     &__step {
@@ -42,38 +42,38 @@
     li {
         display: flex;
         align-items: center;
-        background-color: $colour-background;
+        background-color: $color-background;
         margin-bottom: 15px;
         border-radius: 25px;
         padding: 10px 0;
-        box-shadow: 0px 5px 10px $colour-shadow_step;
+        box-shadow: 0px 5px 10px $color-shadow_step;
+        &:hover {
+            background-color: $color-background_step--hover;
+            color: $color-primary; 
+            h3 {
+                color: $color-text-secondary;
+            }
+        }
     }
 
     &__number {
         margin-right: 20px;
-        background-color: $colour-primary;
-        color: $colour-text_button;
+        background-color: $color-primary;
+        color: $color-text_button;
         padding: 5px 9px;
         border-radius: 25px;
         margin-left: -10px;
     }
 
-    &__icon, &__icon--3 {
+    &__icon {
         font-size: 20px;
         width: 15px;
         margin-right: 20px;
-        &--3 {
-            color: $colour-primary;
-        }
-    }
-
-    &__step-3 li {
-        background-color: $colour-background_step-3;
     }
 
 }
 .restaurant {
-    background-color: $colour-background;
+    background-color: $color-background;
     padding: $padding-block_index;
 
     ul {
@@ -96,7 +96,7 @@
         margin: 10px 0;
         overflow: hidden;
         border-radius: 20px;
-        box-shadow: 0px 5px 10px $colour-shadow_step;
+        box-shadow: 0px 5px 10px $color-shadow_step;
     }
 
     &__image {
@@ -115,8 +115,8 @@
         position: absolute;
         right: 10px;
         top: 10px;
-        background-color: $colour-background_new;
-        color: $colour-text_new;
+        background-color: $color-box;
+        color: $color-text_new;
         font-family: Roboto-Regular;
         font-size: 14px;
         padding: 5px 8px;
@@ -125,7 +125,7 @@
 
     &__info {
         position: relative;
-        color: $colour-text-secondary;
+        color: $color-text-secondary;
         &--fav-icon {
             position:absolute;
             top: 15px;
