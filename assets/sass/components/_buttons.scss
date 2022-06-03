@@ -5,7 +5,7 @@
     color: $color-text_button;
     border: none;
     border-radius: 25px;
-    box-shadow: 0px 5px 10px $color-shadow_button;
+    box-shadow: 0 5px 10px $color-shadow_button;
     width: 220px;
     margin: 20px auto 50px;
     padding: 15px 10px; 
@@ -17,16 +17,4 @@
         );
         box-shadow: 8px 8px 16px 0 $color-shadow_button--hover;
     }
-}
-
-.discover_block {
-    a {
-        text-decoration: none;
-        color: #fff;
-    }
-}
-
-.menu .btn {
-    width: 180px;
-    margin-top: 30px;
 }

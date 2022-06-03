@@ -48,7 +48,7 @@ body {
 }
 
 .how-to-use h1 {
-  padding: 0px 0 20px 20px;
+  padding: 0 0 20px 20px;
   margin: auto;
   font-family: Roboto-Medium;
   font-size: 20px;
@@ -56,7 +56,7 @@ body {
 }
 
 .restaurant h1 {
-  padding: 0px 0 20px 20px;
+  padding: 0 0 20px 20px;
   margin: auto;
   font-family: Roboto-Medium;
   font-size: 20px;
@@ -177,7 +177,7 @@ body {
   color: #fff;
   border: none;
   border-radius: 25px;
-  box-shadow: 0px 5px 10px #B8B8B8;
+  box-shadow: 0 5px 10px #B8B8B8;
   width: 220px;
   margin: 20px auto 50px;
   padding: 15px 10px;
@@ -185,16 +185,6 @@ body {
 .btn:hover, .btn:active {
   background: linear-gradient(to top, #a16be0, #ff93e1);
   box-shadow: 8px 8px 16px 0 #7e7e7e;
-}
-
-.discover_block a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.menu .btn {
-  width: 180px;
-  margin-top: 30px;
 }
 
 @keyframes menuitem {
@@ -342,7 +332,7 @@ body {
   margin-bottom: 15px;
   border-radius: 25px;
   padding: 10px 0;
-  box-shadow: 0px 5px 10px #DCDCDC;
+  box-shadow: 0 5px 10px #DCDCDC;
 }
 .how-to-use li:hover {
   background-color: #F5EDFE;
@@ -387,7 +377,7 @@ body {
   margin: 10px 0;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 0px 5px 10px #DCDCDC;
+  box-shadow: 0 5px 10px #DCDCDC;
 }
 .restaurant__image {
   object-fit: contain;
@@ -518,7 +508,7 @@ body {
   background-color: #fff;
   margin-bottom: 15px;
   border-radius: 15px;
-  box-shadow: 0px 5px 10px #DCDCDC;
+  box-shadow: 0 5px 10px #DCDCDC;
   width: 340px;
   height: 70px;
   position: relative;
@@ -581,6 +571,10 @@ body {
   font-family: Roboto-Regular;
   font-size: 15px;
   margin: auto;
+}
+.menu .btn {
+  width: 180px;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -64,7 +64,7 @@
         background-color: #fff;
         margin-bottom: 15px;
         border-radius: 15px;
-        box-shadow: 0px 5px 10px $color-shadow_step;
+        box-shadow: 0 5px 10px $color-shadow_step;
         width: 340px;
         height: 70px;
         position:relative;
@@ -134,7 +134,10 @@
         margin: auto;
     }
 
-    
-
+    .btn {
+        width: 180px;
+        margin-top: 30px;
+    }
 }
+
 
