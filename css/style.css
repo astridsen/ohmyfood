@@ -92,27 +92,27 @@ body {
 
 @font-face {
   font-family: Roboto-Regular;
-  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: Roboto-Bold;
-  src: url("/fonts/Roboto/Roboto-Bold.ttf");
+  src: url("fonts/Roboto/Roboto-Bold.ttf");
 }
 @font-face {
   font-family: Roboto-Medium;
-  src: url("/fonts/Roboto/Roboto-Medium.ttf");
+  src: url("fonts/Roboto/Roboto-Medium.ttf");
 }
 @font-face {
   font-family: Roboto-Light;
-  src: url("/fonts/Roboto/Roboto-Light.ttf");
+  src: url("fonts/Roboto/Roboto-Light.ttf");
 }
 @font-face {
   font-family: Roboto-Thin;
-  src: url("/fonts/Roboto/Roboto-Thin.ttf");
+  src: url("fonts/Roboto/Roboto-Thin.ttf");
 }
 @font-face {
   font-family: Shrikhand-Regular;
-  src: url("/fonts/Shrikhand/Shrikhand-Regular.ttf");
+  src: url("fonts/Shrikhand/Shrikhand-Regular.ttf");
 }
 /*!
  * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
