@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 15px 0;
+
+    &__logo {
+        width: 180px;
+    }
+
+    &__nav {
+        position: absolute;
+        left: 20px;
+        a {
+        color: #000;
+        }
+    }
+}

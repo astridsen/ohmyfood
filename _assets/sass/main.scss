@@ -1,0 +1,19 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+@import "./base/typography";
+
+@import "./fonts/font-family";
+@import "./fonts/fontawesome.min";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./components/buttons";
+@import "./components/animations";
+@import "./components/fav-icon";
+@import "./components/loader";
+
+@import "./pages/index";
+@import "./pages/menu";
